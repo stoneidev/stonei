@@ -62,7 +62,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 이곳은 돌아이들을 위한 공간입니다.
+        subtitle: have a fun, make a history
         avatar:
             enabled: true
             local: true
