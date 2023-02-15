@@ -2,25 +2,30 @@ baseurl: https://stonei.space
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: stonei Space
 
 languages:
+    ko:
+        languageName: 한글
+        title: 돌아이 공간
+        description: 모여라 돌아이들
+        weight: 1
     en:
         languageName: English
         title: stonei space
         description: space for stonei
-        weight: 1
+        weight: 2
     zh-cn:
         languageName: 中文
         title: 演示站点
         description: 演示说明
-        weight: 2
+        weight: 3
     ar:
         languageName: عربي
         languagedirection: rtl
         title: موقع تجريبي
         description: وصف تجريبي
-        weight: 3
+        weight: 4
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -199,13 +204,13 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/stoneidev
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://twitter.com/PR0523
           params:
               icon: brand-twitter
 
