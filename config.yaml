@@ -4,6 +4,9 @@ theme: hugo-theme-stack
 paginate: 5
 title: Example Site
 
+module:
+  imports:
+    - path: github.com/CaiJimmy/hugo-theme-stack/v3
 languages:
     en:
         languageName: English
