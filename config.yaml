@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://stonei.space
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
@@ -7,8 +7,8 @@ title: Example Site
 languages:
     en:
         languageName: English
-        title: Example Site
-        description: Example description
+        title: stonei space
+        description: space for stonei
         weight: 1
     zh-cn:
         languageName: 中文
@@ -34,7 +34,7 @@ DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 permalinks:
     post: /p/:slug/
@@ -57,11 +57,11 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 이곳은 돌아이들을 위한 공간입니다.
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/profile.png
 
     article:
         math: false
