@@ -13,7 +13,7 @@ languages:
     en:
         languageName: English
         title: stonei space
-        description: space for stonei
+        description: have a fun, make a history
         weight: 2
     zh-cn:
         languageName: 中文
